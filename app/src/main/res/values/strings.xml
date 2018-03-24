@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CalculaMédia</string>
+    <string name="label_nome">Nome:</string>
+    <string name="label_rm">RM:</string>
+    <string name="label_nota1">Nota 1:</string>
+    <string name="label_nota2">Nota 2:</string>
+    <string name="label_nota3">Nota 3:</string>
+    <string name="label_tela2">Resultado:</string>
+</resources>
