@@ -1,7 +1,11 @@
 package com.kaique.fiap.calculamdia
 
-/**
- * Created by logonrm on 23/03/2018.
- */
-class ResultadoActivity {
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+
+class ResultadoActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.resultado)
+    }
 }

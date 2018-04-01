@@ -23,7 +23,8 @@
             <EditText
                 android:id="@+id/etNome"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -33,7 +34,8 @@
             <EditText
                 android:id="@+id/etRM"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -43,7 +45,8 @@
             <EditText
                 android:id="@+id/etNota1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -53,7 +56,8 @@
             <EditText
                 android:id="@+id/etNota2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -63,7 +67,13 @@
             <EditText
                 android:id="@+id/etNota3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"/>
+            <Button
+                android:id="@+id/btEnviar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/bt_name1"/>
         </LinearLayout>
     </ScrollView>
 
