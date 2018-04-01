@@ -11,6 +11,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //Quando eu clicar no meu botão, ele ira executar as seguintes funções
+        //Eu irei criar uma variavel que irá captar todas as variaveis e mandar para a tela de resultado
+        //Pego as variaveis com o putExtra, passando o nome ,e aonde ele pega a variavel e converto em string.
+        //Termino a função startando a minha activity de tela resultado.
         btEnviar.setOnClickListener{
             val telaResultado= Intent(this,ResultadoActivity::class.java)
             telaResultado.putExtra("NOME",etNome.editableText.toString())
